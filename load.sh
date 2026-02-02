@@ -1,7 +1,7 @@
 echo "puerto:" $1 &&
 ampy -p $1 ls &&
 echo "sps" &&
-ampy -p $1 put sps30/sps30.py &&
+ampy -p $1 put sps30.py &&
 echo "main" &&
 ampy -p $1 put main.py &&
 echo "bme" &&
